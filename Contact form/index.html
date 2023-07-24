@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact form</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <form action="">
+                <h1 class="main_heading">Contact Form</h1>
+                <hr>
+                <p id="pb">Please fill in your information an we'll be sending your order in on time.</p>
+                <br>
+                <p>Your Name: <input type="text" id="fn" name="name" placeholder="First name">
+                    <input type="text" name="name" id="ln" placeholder="Last name">
+                </p>
+                <label for="email">Your Email: </label>
+                <input type="email" id="email" placeholder="abc123@gmail.com">
+                <p>Phone No.: <input type="number" id="contact" placeholder="+91 ##########"> </p>
+                <p>Message Subject: 
+                    <select name="Message type" id="Message_type">
+                        <option value="">--Select your message type--</option>
+                        <option value="Feedback">Feedback</option>
+                        <option value="Note">Note</option>
+                        <option value="Others">Others</option>
+                    </select>
+                </p>
+                <fieldset id="os">
+                    <legend>Your Message :</legend>
+                    <textarea name="message" id="message" cols="100" rows="8" placeholder="Your Message"></textarea>
+
+                </fieldset>
+                <p>Verification:</p>
+                <hr>
+                <br>
+                <input type="submit" id="submit">
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+.main{
+    
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 5px 30px;
+    font-size: 15px;
+    padding: 8px;
+    background-image: url(Web.jpg);
+    background-size: cover;
+}
+
+.container{
+    background: transparent;
+    padding: 5px 20px 15px 20px;
+    width: 600px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+select,
+textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+fieldset{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.main_heading{
+    text-align: center;
+}
+
+input[type="submit"]{
+    background: transparent;
+    color: white;
+    padding: 12px 20px;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+input[type="submit"]:hover{
+    background-color: rgba(40, 153, 252, 0.648)
+}
+#pb{
+    text-align: center;
+}
+#msg{
+    margin-bottom: 10px;
+}
+
+#fn{
+   width: 212px; 
+}
+#ln{
+    width: 213px;
+}
+#email{
+    width: 452px;
+}
+#contact{
+    width: 456px;
+}
+#Message_type{
+    width: 410px;
+}
+#message{
+    width: 512px;
+    height: 50px;
+}
+#os{
+    background: transparent;
+}
